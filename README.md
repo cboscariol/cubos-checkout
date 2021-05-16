@@ -35,7 +35,7 @@ Para simular o estoque de produtos, que normalmente ficaria num banco de dados, 
 
 ## Endpoints obrigatórios
 
-#### `GET` `/produtos`
+#### `GET` `/produtos` OK
 
 Essa rota deverá:
 - Listar todos os produtos e devolver no formato de `array` de produtos;
@@ -46,18 +46,18 @@ Essa rota deverá:
     
 Exemplos:
 
-- `/produtos`
-    - Deverá retornar todos os produtos em estoque
-- `/produtos?categoria=bazar`
+- `/produtos` OK
+    - Deverá retornar todos os produtos em estoque OK
+- `/produtos?categoria=bazar` OK
     - Deverá retornar todos os eletrodomésticos que tenham unidades em estoque
-- `/produtos?precoInicial=10000&precoFinal=200000`
+- `/produtos?precoInicial=10000&precoFinal=200000` OK
     - Deverá retornar todos os produtos que tenham unidades em estoque e custem entre 100 e 200 reais
-- `/produtos?precoInicial=10000&precoFinal=200000&categoria=bazar`
+- `/produtos?precoInicial=10000&precoFinal=200000&categoria=bazar` OK
     - Deverá retornar todos os produtos que tenham unidades em estoque e custem entre 100 e 200 reais e sejam eletrodomésticos
 
 ---
 
-#### `GET` `/carrinho`
+#### `GET` `/carrinho` OK
 
 Esta rota deverá retornar:
 - Uma lista (array) contendo os `produtos` que estão no carrinho, com todas as suas informações:
@@ -115,7 +115,7 @@ Naturalmente, o retorno dessa chamada deve variar de acordo com as possíveis ch
 ---
 
 ---
-### `POST` `/carrinho/produtos`
+### `POST` `/carrinho/produtos` OK
 
 Para esta rota, você deverá:
 - Informar `id` do produto e `quantidade` a ser inserida;
@@ -200,7 +200,7 @@ deverá retornar
 
 ---
 
-### `DELETE` `/carrinho/produtos/:idProduto`
+### `DELETE` `/carrinho/produtos/:idProduto` OK
 
 Para esta rota, você deverá:
 - Informar o `id` do produto a ser excluido do carrinho
@@ -231,7 +231,7 @@ Para um carrinho como no exemplo de `GET /carrinho` a chamada do metodo `DELETE`
 
 ---
 
-### `DELETE` `/carrinho`
+### `DELETE` `/carrinho` OK
 
 Nesta rota você deverá limpar o carrinho completamente, removendo todos os produtos. Retorne uma mensagem informando que a operação foi realizada com sucesso.
 

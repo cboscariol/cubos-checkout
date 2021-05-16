@@ -4,21 +4,14 @@
       "id": 1,
       "nome": "Pipoca para Microondas Manteiga YOKI 50g",
       "preco": 169,
-      "estoque": 6,
+      "estoque": 5,
       "categoria": "Bazar"
-    },
-    {
-      "id": 2,
-      "nome": "Cerveja BADEN BADEN American Ipa Puro Malte Garrafa 600ml",
-      "preco": 908,
-      "estoque": 0,
-      "categoria": "Bebidas"
     },
     {
       "id": 3,
       "nome": "Limpador Cif Multiuso 800g Em Pó",
       "preco": 999,
-      "estoque": 7,
+      "estoque": 2,
       "categoria": "Limpeza"
     },
     {
@@ -29,38 +22,10 @@
       "categoria": "Limpeza"
     },
     {
-      "id": 5,
-      "nome": "Biscoito BAUDUCCO Choco Biscuit Leite 80g",
-      "preco": 519,
-      "estoque": 1,
-      "categoria": "Bazar"
-    },
-    {
-      "id": 6,
-      "nome": "Café Solúvel NESCAFÉ Gold Intenso 100g",
-      "preco": 2079,
-      "estoque": 0,
-      "categoria": "Bazar"
-    },
-    {
-      "id": 7,
-      "nome": "Macarrão Italiano Capellini N°1 BARILLA 500g",
-      "preco": 859,
-      "estoque": 0,
-      "categoria": "Bazar"
-    },
-    {
-      "id": 8,
-      "nome": "Azeite Espanhol de Oliva Extra Virgem CARBONELL Vidro 500ml",
-      "preco": 2699,
-      "estoque": 0,
-      "categoria": "Azeite"
-    },
-    {
       "id": 9,
       "nome": "Arroz Parboilizado Tipo 1 CAMIL Pacote 5kg",
       "preco": 2749,
-      "estoque": 9,
+      "estoque": 7,
       "categoria": "Bazar"
     },
     {
@@ -74,15 +39,52 @@
       "id": 11,
       "nome": "Oléo de Canola QUALITÁ Pet 900ml",
       "preco": 1199,
-      "estoque": 22,
+      "estoque": 14,
       "categoria": "Oleo"
     },
     {
-      "id": 12,
-      "nome": "Azeite Português de Oliva Extra Virgem CANDEEIRO Vidro 500ml",
-      "preco": 3399,
-      "estoque": 0,
-      "categoria": "Azeite"
+      "id": 13,
+      "nome": "Vassoura de uso interno",
+      "preco": 1490,
+      "estoque": 33,
+      "categoria": "Bazar"
+    },
+    {
+      "id": 14,
+      "nome": "Pá para lixo unid.",
+      "preco": 2990,
+      "estoque": 13,
+      "categoria": "Bazar"
+    },
+    {
+      "id": 15,
+      "nome": "Conjunto de Panelas 5 Peças Classic Antiaderente, Preto",
+      "preco": 39900,
+      "estoque": 12,
+      "categoria": "Bazar"
+    },
+    {
+      "id": 16,
+      "nome": "Tábua de Passar Dobrável",
+      "preco": 18990,
+      "estoque": 12,
+      "categoria": "Bazar"
+    },
+    {
+      "id": 17,
+      "nome": "Lixeira - 3 Litros com Frisos",
+      "preco": 3290,
+      "estoque": 98,
+      "categoria": "Bazar"
+    },
+    {
+      "id": 18,
+      "nome": "Kit Suqueira de Vidro - 4 Litros Agnes 2 Peças",
+      "preco": 19990,
+      "estoque": 2,
+      "categoria": "Bazar"
     }
   ]
 }
+
+
